@@ -1,0 +1,25 @@
+package helloworld;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		
+		byte bit = 127;
+		short valor = 254;
+		long identificador = 1000l;
+		double salario = 9000.00;
+		float altura = 1.60f;
+		String nome = "Angela";
+		boolean resposta = true;
+		
+		String nomesDeAcademia, nomeDeCarro, nomeDeAnimal;
+		
+		nomesDeAcademia = "Performance";
+		
+		final int dataDeNasc = 16101993;
+			
+		System.out.println(dataDeNasc);
+	
+	}
+
+}

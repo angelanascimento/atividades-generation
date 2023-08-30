@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\Angela Araújo\Documents\GENERATION BRASIL - TURMA 67\JAVA\ATIVIDADES PRÁTICAS\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+697301570.index

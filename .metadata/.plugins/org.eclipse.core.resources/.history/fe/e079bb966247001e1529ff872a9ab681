@@ -1,0 +1,29 @@
+package atividades;
+
+import java.util.Scanner;
+
+public class Exercicio01 {
+
+	public static void main(String[] args) {
+		
+		double salario, abono, novoSalario;
+
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite seu salário: ");
+		salario = entrada.nextDouble();
+		
+		System.out.println("Digite o valor do abono: ");
+		abono = entrada.nextDouble();
+		
+		novoSalario = salario + abono;
+		
+		
+		System.out.println(novoSalario);
+		
+		
+		
+
+	}
+
+}
