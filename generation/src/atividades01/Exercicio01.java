@@ -1,4 +1,4 @@
-package atividades;
+package atividades01;
 
 import java.util.Scanner;
 
@@ -18,12 +18,8 @@ public class Exercicio01 {
 		
 		novoSalario = salario + abono;
 		
-		
 		System.out.println(novoSalario);
 		
-		
-		
-
 	}
 
 }

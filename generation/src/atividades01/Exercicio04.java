@@ -1,4 +1,4 @@
-package atividades;
+package atividades01;
 
 import java.util.Scanner;
 
@@ -25,7 +25,6 @@ public class Exercicio04 {
 		diferenca = (n1 * n2) - (n3 * n4);
 		
 		System.out.println(diferenca);
-		
 
 	}
 
