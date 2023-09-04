@@ -9,7 +9,6 @@ public class Exercicio06 {
 		int numero;
 		float soma = 0, contador = 0;
 		
-		
 		Scanner entrada = new Scanner(System.in);
 		
 		do {
