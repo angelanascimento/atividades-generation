@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 public class Exercicio04 {
 
+	
 	public static void main(String[] args) {
 		
 		float nota[][] = new float[2][4];
 		float medias[] = new float[2];
-		
 		Scanner entrada = new Scanner(System.in);
-		
 		
 		for(int ii = 0; ii < 2; ii++) {
 			
@@ -27,8 +26,10 @@ public class Exercicio04 {
 			System.out.print(medias[c]);
 		}*/
 		
+		System.out.println("==================================================================");
+		
 		for(float resultado : medias) {
-			System.out.printf("| %.1f", resultado / 4);
+			System.out.printf(" | %.1f", resultado / 4);
 		}
 			
 	}

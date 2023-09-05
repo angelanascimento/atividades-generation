@@ -9,7 +9,6 @@ public class Exercicio03 {
 		int matriz [][] = new int[3][3];
 		int somaPrincipal = 0; int somaDiagonal = 0;
 		String matrizPrincipal = "", matrizSecundaria = "";
-		
 		Scanner entrada = new Scanner(System.in);
 		
 		for(int ii = 0; ii < 3; ii++) {

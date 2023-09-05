@@ -10,7 +10,6 @@ public class Exercicio02 {
 		int soma = 0;
 		float media;
 		String impares = "", pares = "";
-	
 		Scanner entrada = new Scanner(System.in);
 
 		for(int i = 0; i < numero.length; i++) {
@@ -28,7 +27,6 @@ public class Exercicio02 {
 			}
 		}
 		media = soma / 10f;
-		
 		System.out.println("=============================================");
 		System.out.printf("Elementos nos índices ímpares: " + impares);
 		System.out.printf("\nElementos pares: " + pares);
