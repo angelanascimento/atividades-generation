@@ -34,7 +34,7 @@ public class Exercicio02 {
 				System.out.println("=========================================================");
 			}
 			else if(opcao == 2) {
-				//System.out.println(livros);
+				System.out.println(livros);
 			}
 			else if(opcao == 3) {
 				if(livros.isEmpty()) {

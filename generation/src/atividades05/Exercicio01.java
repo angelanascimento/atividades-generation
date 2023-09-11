@@ -32,8 +32,6 @@ public class Exercicio01 {
 			Collections.sort(cor);
 			System.out.printf(cor.get(i) + " ");
 		}
-		
-		
 	}
 
 }

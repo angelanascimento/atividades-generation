@@ -20,7 +20,6 @@ public class Exercicio01 {
 		System.out.println("[0]: O programa deve ser finalizado.");
 		System.out.println("\n=================================================================================");
 		
-		
 		do{
 			System.out.print("\nDigite uma das opções: ");
 			opcao = entrada.nextInt();
