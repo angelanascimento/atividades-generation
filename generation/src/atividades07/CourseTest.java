@@ -17,7 +17,5 @@ public class CourseTest {
 		
 		c1.view();
 		c2.view();
-
 	}
-
 }

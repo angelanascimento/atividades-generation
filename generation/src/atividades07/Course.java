@@ -57,7 +57,7 @@ public class Course {
 	public void setPrice(float price) {
 		this.price = price;
 	}
-	
+
 	public void view() {
 		System.out.printf("Nome do Curso: %s\nDuração: %s\nNível: %s\nProfessores: %s\nPreço: %.2f\n", getName(), getDuration(), getLevel(), getTeachers(), getPrice());
 		System.out.println("================================================================");
