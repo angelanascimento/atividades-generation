@@ -1,4 +1,4 @@
-package atividades09;
+package atividades10;
 
 public class Ticket extends Product {
 
