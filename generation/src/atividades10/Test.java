@@ -2,15 +2,17 @@ package atividades10;
 
 import java.util.Scanner;
 
+
 public class Test {
 
 	public static void main(String[] args) {
-		
-		String name = null, category = null, description = null, date = null, time = null, local = null, status = null ;
-		int quantityStock = 0;
-		float price = 0;
-		
+
 		Scanner input = new Scanner(System.in);
+		Ticket t1 = new Ticket();
+		
+		String name, category, description, date, time, local, status;
+		int quantityStock;
+		float price;
 		
 		try {
 			System.out.print("Digite o nome do filme: ");
@@ -40,8 +42,6 @@ public class Test {
 			System.out.print("Digite o status do evento: ");
 			status = input.nextLine();
 			
-			Ticket t1 = new Ticket();
-			
 			t1.setName(name);
 			t1.setCategory(category);
 			t1.setDescription(description);
@@ -58,8 +58,6 @@ public class Test {
 
 			System.err.println("\nO valor digitado não é válido!");
 		}
-
-		
 
 	}
 
